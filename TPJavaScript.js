@@ -1,6 +1,8 @@
-var Numero_1 = getSelection ;
-var Numero_2 = getSelection ;
+function sumarNumeros() {
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
 
-screen 
-   let sum = Numero_1 + Numero_2;
- 
+    var resultado = num1 + num2;
+
+    document.getElementById('resultado').innerHTML = "El resultado es: " + resultado;
+}
