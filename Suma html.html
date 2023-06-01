@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>suma de 2 numeros</title>
+    <title>Suma de 2 numeros</title>
 </head>
 <body>
+    <h1>Suma de numeros</h1>
+    <label for="num1">numero 1:</label>
+    <input type="number" id="num1"><br><br>
 
-    <p>Introduce tus numeros y luego haz click en el boton para sumarlo</p>
-    <main>
-        <section>
-            <button id="btn_alerta">Click Suma</button>
-        </section>
-        <script type="text/javascript" src=”TPJavaScript.js”></script>
-    </main>
+    <label for="num2">numero 2:</label>
+    <input type="number" id="num2"><br><br>
+
+    <button onclick="sumarNumeros()">Sumar</button><br><br>
+
+    <div id="resultado"></div>
+
+    <script src="./TPJavaScript.js"></script>
 </body>
 </html>
